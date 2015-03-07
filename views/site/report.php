@@ -5,9 +5,9 @@ $this->params['breadcrumbs'][] = $this->title;
 ?>
 
 <?php if(Yii::$app->session->hasFlash('BookReportTest')): ?>
-<div class="alert alert-success">
+<!--<div class="alert alert-success">
     Данные сгенерированы!
-</div>
+</div>-->
 <?php endif; ?>
 
 <!--<div><?php echo Html::a("Загрузка тестовых данных", array('site/reporttest')); ?></div>-->
